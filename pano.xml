@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour apprev="19550" appversion="7.0 beta 4a" start="node30">
+  <panorama id="node30">
+    <input leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node30/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="1440" height="1440">
+      <level predecode="0" width="1440" height="1440" preload="0"/>
+      <level predecode="0" width="720" height="720" preload="0"/>
+      <level predecode="1" width="360" height="360" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+      <video format="equirectangular" targetview="$(cur)" startmutedmobile="0" endaction="{node6}" startonload="1">
+        <source url="videos/ExtSoir1.1.mp4"/>
+        <source url="videos/ExtSoir1.1-7.mp4"/>
+        <source url="videos/ExtSoir1.1-10.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="161.07" fov="70" tilt="16.76"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="330" scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata author="" datetime="" heading="0" comment="" customnodeid="" tags="Lieux|NarrationSupp" title="Extérieur" description="" info="" source="" copyright="" latitude="" longitude="" nodeid="node30"/>
+    <hotspots smoothmovement="1" width="180" height="20" wordwrap="1">
+      <label textcolor="0x000000" backgroundalpha="1" wordwrap="1" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" width="180" textalpha="1" border="1" borderradius="1" height="20" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot id="Point01" title="Passer la narration" description="" url="{node6}" pan="-200.53" skinid="ht_Passer" target="" tilt="-29.21"/>
+    </hotspots>
+    <media>
+      <sound id="_background" loop="1" nodechangekeep="0" pan="-1.000" mode="0" pansize="10.000" tilt="-1.000" field="90.000" ambientlevel="0.000" startmutedmobile="0" tiltsize="10.000" level="1.000">
+        <source url="media/638625__marb7e__calm-belgian-forest-with-birds-chirp.mp3"/>
+        <source url="media/638625__marb7e__calm-belgian-forest-with-birds-chirp_Court.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="20" zoomout="0" zoomafterinfov="90" type="crossdissolve" delay="none" softedge="0" zoomspeed="2" zoomfov="20" enabled="1" zoomoutpause="1" blendcolor="0x000000" zoomin="0" blendtime="1"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" sensitivity="8" rubberband="0" speedwheel="1" contextprojections="0" contextfullscreen="1" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" invertcontrol="1" lockedwheel="0" zoomcentercursor="1" invertwheel="0" hideabout="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node6">
+    <input leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="1440" height="1440">
+      <level predecode="0" width="1440" height="1440" preload="0"/>
+      <level predecode="0" width="720" height="720" preload="0"/>
+      <level predecode="1" width="360" height="360" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+      <video format="equirectangular" targetview="" startmutedmobile="0" endaction="loop" startonload="1">
+        <source url="videos/ExtSoir1-15.mp4"/>
+        <source url="videos/ExtSoir1-7.mp4"/>
+        <source url="videos/ExtSoir1-10.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="164.6" fov="70" tilt="12.13"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata author="" datetime="" heading="0" comment="" customnodeid="" tags="Contenu|Entree|Exterieur" title="Extérieur" description="" info="" source="" copyright="" latitude="" longitude="" nodeid="node6"/>
+    <hotspots smoothmovement="1" width="180" height="20" wordwrap="1">
+      <label textcolor="0x000000" backgroundalpha="1" wordwrap="1" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" width="180" textalpha="1" border="1" borderradius="1" height="20" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot id="Point01" title="Se déplacer" description="" url="{node3}" pan="-150.91" skinid="ht_node" target="160.5/2.9/100.0" tilt="-4.88"/>
+      <hotspot id="Point02" title="Se déplacer" description="" url="{node2}" pan="-250.05" skinid="ht_node" target="-132.7/11.5/100.0" tilt="-3.68"/>
+      <hotspot id="Point03" title="Rejouer la narration" description="" url="{node30}" pan="-200.62" skinid="ht_Rejouer" target="" tilt="-16.23"/>
+      <hotspot id="Point04" title="Crédits" description="" url="{node29}" pan="-287.16" skinid="ht_node" target="" tilt="-4.62"/>
+      <hotspot id="Point05" title="Entrer à l'intérieur" description="" url="{node5}" pan="-229.72" skinid="ht_node" target="" tilt="-3.74"/>
+    </hotspots>
+    <media>
+      <sound id="_background" loop="0" nodechangekeep="0" pan="-1.000" mode="0" pansize="10.000" tilt="-1.000" field="90.000" ambientlevel="0.000" startmutedmobile="0" tiltsize="10.000" level="1.000">
+        <source url="media/638625__marb7e__calm-belgian-forest-with-birds-chirp.mp3"/>
+        <source url="media/638625__marb7e__calm-belgian-forest-with-birds-chirp_Court.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="20" zoomout="0" zoomafterinfov="90" type="crossdissolve" delay="none" softedge="0" zoomspeed="2" zoomfov="20" enabled="1" zoomoutpause="1" blendcolor="0x000000" zoomin="0" blendtime="1"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" sensitivity="8" rubberband="0" speedwheel="1" contextprojections="0" contextfullscreen="1" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" invertcontrol="1" lockedwheel="0" zoomcentercursor="1" invertwheel="0" hideabout="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node2">
+    <input leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="1520" height="1520">
+      <level predecode="0" width="1520" height="1520" preload="0"/>
+      <level predecode="0" width="760" height="760" preload="0"/>
+      <level predecode="1" width="380" height="380" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+      <video format="equirectangular" targetview="" startmutedmobile="0" endaction="loop" startonload="1">
+        <source url="videos/ExtSoir3Court.mp4"/>
+        <source url="videos/ExtSoir3Court-7.mp4"/>
+        <source url="videos/ExtSoir3Court-10.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="-100.27" fov="100" tilt="18.6"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="330" scaletofit="1" fovfisheye="360" pan="360" fov="140" tilt="90"/>
+    </view>
+    <userdata author="" datetime="2020-08-01 23:14" heading="0" comment="" customnodeid="" tags="Tests Exports|Exterieur" title="IMG_20200801_191439_00_186.insp" description="" info="" source="" copyright="" latitude="" longitude="" nodeid="node2"/>
+    <hotspots smoothmovement="1" width="180" height="20" wordwrap="1">
+      <label textcolor="0x000000" backgroundalpha="1" wordwrap="1" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" width="180" textalpha="1" border="1" borderradius="1" height="20" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot id="Point02" title="Se déplacer" description="" url="{node3}" pan="-141.96" skinid="ht_node" target="-111.6/-0.8/100.0" tilt="-1.67"/>
+      <hotspot id="Point01" title="Se déplacer" description="" url="{node6}" pan="-48.19" skinid="ht_node" target="177.6/4.0/70.0" tilt="-4.15"/>
+      <hotspot id="Point03" title="Crédits" description="" url="{node29}" pan="-314.92" skinid="ht_node" target="" tilt="-6.72"/>
+      <hotspot id="Point04" title="Entrer à l'intérieur" description="" url="{node5}" pan="-121.05" skinid="ht_node" target="" tilt="-0.13"/>
+    </hotspots>
+    <media>
+      <sound id="_background" loop="0" nodechangekeep="0" pan="-1.000" mode="0" pansize="10.000" tilt="-1.000" field="90.000" ambientlevel="0.000" startmutedmobile="0" tiltsize="10.000" level="1.000">
+        <source url="media/638625__marb7e__calm-belgian-forest-with-birds-chirp.mp3"/>
+        <source url="media/638625__marb7e__calm-belgian-forest-with-birds-chirp_Court.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="20" zoomout="0" zoomafterinfov="90" type="crossdissolve" delay="none" softedge="0" zoomspeed="2" zoomfov="20" enabled="1" zoomoutpause="1" blendcolor="0x000000" zoomin="0" blendtime="1"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" sensitivity="8" rubberband="0" speedwheel="1" contextprojections="0" contextfullscreen="1" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" invertcontrol="1" lockedwheel="0" zoomcentercursor="1" invertwheel="0" hideabout="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node3">
+    <input leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="1520" height="1520">
+      <level predecode="0" width="1520" height="1520" preload="0"/>
+      <level predecode="0" width="760" height="760" preload="0"/>
+      <level predecode="1" width="380" height="380" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+      <video format="equirectangular" targetview="" startmutedmobile="0" endaction="loop" startonload="1">
+        <source url="videos/ExtSoir4Court.mp4"/>
+        <source url="videos/ExtSoir4Court-7.mp4"/>
+        <source url="videos/ExtSoir4Court-10.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="160.47" fov="100" tilt="2.87"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="330" scaletofit="1" fovfisheye="360" pan="360" fov="140" tilt="90"/>
+    </view>
+    <userdata author="" datetime="2020-08-01 23:26" heading="0" comment="" customnodeid="" tags="Tests Exports|Exterieur" title="IMG_20200801_192613_00_198.insp" description="" info="" source="" copyright="" latitude="" longitude="" nodeid="node3"/>
+    <hotspots smoothmovement="1" width="180" height="20" wordwrap="1">
+      <label textcolor="0x000000" backgroundalpha="1" wordwrap="1" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" width="180" textalpha="1" border="1" borderradius="1" height="20" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot id="Point01" title="Se déplacer" description="" url="{node2}" pan="-297.83" skinid="ht_node" target="-67.1/8.4/100.0" tilt="-5.38"/>
+      <hotspot id="Point02" title="Se déplacer" description="" url="{node6}" pan="-36" skinid="ht_node" target="138.1/9.8/70.0" tilt="-5.37"/>
+      <hotspot id="Point03" title="Panneaux de Bettina Froget" description="" url="media/RevolutionsGalactiques-BForget.pdf" pan="-348.64" skinid="ht_pdf" target="" tilt="-3.04"/>
+      <hotspot id="Point04" title="L'astrophysique et l'art" description="L'Observatoire a déjà accueilli des artistes en résidence dans une perspective de collaboration entre arts et sciences. Les panneaux ci-bas sont une partie de l'oeuvre de Bettina Forget, réalisés lors de sa résidence à l'Observatoire. Son projet visait à montrer la sous-représentation des femmes dans le canon scientifique et à mettre en valeur leur travail en astrophysique." url="" pan="-348.3" skinid="ht_info" target="" tilt="8.86"/>
+    </hotspots>
+    <media>
+      <sound id="_background" loop="0" nodechangekeep="0" pan="-1.000" mode="0" pansize="10.000" tilt="-1.000" field="90.000" ambientlevel="0.000" startmutedmobile="0" tiltsize="10.000" level="1.000">
+        <source url="media/638625__marb7e__calm-belgian-forest-with-birds-chirp.mp3"/>
+        <source url="media/638625__marb7e__calm-belgian-forest-with-birds-chirp_Court.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="20" zoomout="0" zoomafterinfov="90" type="crossdissolve" delay="none" softedge="0" zoomspeed="2" zoomfov="20" enabled="1" zoomoutpause="1" blendcolor="0x000000" zoomin="0" blendtime="1"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" sensitivity="8" rubberband="0" speedwheel="1" contextprojections="0" contextfullscreen="1" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" invertcontrol="1" lockedwheel="0" zoomcentercursor="1" invertwheel="0" hideabout="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node5">
+    <input leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="1520" height="1520">
+      <level predecode="0" width="1520" height="1520" preload="0"/>
+      <level predecode="0" width="760" height="760" preload="0"/>
+      <level predecode="1" width="380" height="380" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+      <video format="equirectangular" targetview="" startmutedmobile="0" endaction="loop" startonload="1">
+        <source url="videos/IntCorridorCourt.mp4"/>
+        <source url="videos/IntCorridorCourt-7.mp4"/>
+        <source url="videos/IntCorridorCourt-10.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="155.66" fov="100" tilt="-3.09"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="330" scaletofit="1" fovfisheye="360" pan="360" fov="140" tilt="90"/>
+    </view>
+    <userdata author="" datetime="2020-08-01 21:57" heading="0" comment="" customnodeid="" tags="Entree|Lieux|Tests Exports" title="Intérieur" description="" info="" source="" copyright="" latitude="" longitude="" nodeid="node5"/>
+    <hotspots smoothmovement="1" width="180" height="20" wordwrap="1">
+      <label textcolor="0x000000" backgroundalpha="1" wordwrap="1" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" width="180" textalpha="1" border="1" borderradius="1" height="20" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot id="Point04" title="Salle du Télescope" description="" url="{node7}" pan="-169.74" skinid="ht_node" target="-19.1/-4.1/100.0" tilt="-21.4"/>
+      <hotspot id="IntroObs" title="Salle d'observation" description="" url="{node26}" pan="-235.07" skinid="ht_node" target="" tilt="-8.42"/>
+      <hotspot id="Point02" title="L'instrumentation" description="" url="images/PanneauInt.png" pan="-2.05" skinid="ht_image_info" target="" tilt="-2.03"/>
+      <hotspot id="Point01" title="Retourner à l'extérieur" description="" url="{node6}" pan="-100.39" skinid="ht_node" target="" tilt="-10.38"/>
+    </hotspots>
+    <media>
+      <sound id="_background" loop="0" nodechangekeep="0" pan="-1.000" mode="0" pansize="10.000" tilt="-1.000" field="90.000" ambientlevel="0.000" startmutedmobile="0" tiltsize="10.000" level="1.000">
+        <source url="media/513479__andrewkn__higher-than-possible.mp3"/>
+        <source url="media/513479__andrewkn__higher-than-possible_Court.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="20" zoomout="0" zoomafterinfov="90" type="crossdissolve" delay="none" softedge="0" zoomspeed="2" zoomfov="20" enabled="1" zoomoutpause="1" blendcolor="0x000000" zoomin="0" blendtime="1"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" sensitivity="8" rubberband="0" speedwheel="1" contextprojections="0" contextfullscreen="1" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" invertcontrol="1" lockedwheel="0" zoomcentercursor="1" invertwheel="0" hideabout="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node7">
+    <input leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="1520" height="1520">
+      <level predecode="0" width="1520" height="1520" preload="0"/>
+      <level predecode="0" width="760" height="760" preload="0"/>
+      <level predecode="1" width="380" height="380" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+      <video format="equirectangular" targetview="$(cur)" startmutedmobile="0" endaction="{node8}" startonload="1">
+        <source url="videos/IntTel1.1-12.mp4"/>
+        <source url="videos/IntTel1.1-7.mp4"/>
+        <source url="videos/IntTel1.1-10.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="-37.1" fov="100" tilt="2.26"/>
+      <flyin projection="4" pan="-43.02" fov="70" tilt="-7.29"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata author="" datetime="2020-08-01 20:19" heading="0" comment="" customnodeid="" tags="Telescope|Tests Exports|Lieux" title="Salle du Télescope" description="" info="" source="" copyright="" latitude="" longitude="" nodeid="node7"/>
+    <hotspots smoothmovement="1" width="180" height="20" wordwrap="1">
+      <label textcolor="0x000000" backgroundalpha="1" wordwrap="1" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" width="180" textalpha="1" border="1" borderradius="1" height="20" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot id="Point01" title="Passer la narration" description="" url="{node8}" pan="-38.53" skinid="ht_Passer" target="-42.0/-37.0/100.0" tilt="-43.78"/>
+    </hotspots>
+    <media>
+      <sound id="_background" loop="0" nodechangekeep="0" pan="-1.000" mode="0" pansize="10.000" tilt="-1.000" field="90.000" ambientlevel="0.000" startmutedmobile="0" tiltsize="10.000" level="0.700">
+        <source url="media/513479__andrewkn__higher-than-possible.mp3"/>
+        <source url="media/513479__andrewkn__higher-than-possible_Court.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="20" zoomout="0" zoomafterinfov="90" type="crossdissolve" delay="none" softedge="0" zoomspeed="2" zoomfov="20" enabled="1" zoomoutpause="1" blendcolor="0x000000" zoomin="0" blendtime="1"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" sensitivity="8" rubberband="0" speedwheel="1" contextprojections="0" contextfullscreen="1" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" invertcontrol="1" lockedwheel="0" zoomcentercursor="1" invertwheel="0" hideabout="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node8">
+    <input leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="1520" height="1520">
+      <level predecode="0" width="1520" height="1520" preload="0"/>
+      <level predecode="0" width="760" height="760" preload="0"/>
+      <level predecode="1" width="380" height="380" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+      <video format="equirectangular" targetview="" startmutedmobile="0" endaction="loop" startonload="1">
+        <source url="videos/IntTel1.2Court.mp4"/>
+        <source url="videos/IntTel1.2Court-7.mp4"/>
+        <source url="videos/IntTel1.2Court-10.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="-36.88" fov="70" tilt="1.86"/>
+      <flyin projection="4" pan="-43.02" fov="70" tilt="-7.29"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata author="" datetime="2020-08-01 20:19" heading="0" comment="" customnodeid="" tags="Tests Exports|Telescope" title="IMG_20200801_161909_00_068.insp" description="" info="" source="" copyright="" latitude="" longitude="" nodeid="node8"/>
+    <hotspots smoothmovement="1" width="180" height="20" wordwrap="1">
+      <label textcolor="0x000000" backgroundalpha="1" wordwrap="1" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" width="180" textalpha="1" border="1" borderradius="1" height="20" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot id="Point01" title="Rejouer la narration" description="" url="{node7}" pan="-38.1" skinid="ht_Rejouer" target="-39.6/-4.2/100.0" tilt="-44.08"/>
+      <hotspot id="Point02" title="Corridor" description="" url="{node5}" pan="-164.7" skinid="ht_node" target="" tilt="-5.84"/>
+      <hotspot id="Point04" title="Se déplacer" description="" url="{node11}" pan="-286.38" skinid="ht_node" target="-56.7/-6.3/100.0" tilt="-15.01"/>
+      <hotspot id="Point05" title="Monter dans le dôme" description="" url="{node13}" pan="-255.27" skinid="ht_node" target="-177.1/-12.6/100.0" tilt="27.83"/>
+      <hotspot id="IntroObs" title="Salle d'observation" description="" url="{node26}" pan="-40.51" skinid="ht_node" target="" tilt="-3.94"/>
+      <hotspot id="Point06" title="Sortir sur la passerelle" description="" url="{node32}" pan="-297.16" skinid="ht_node" target="" tilt="2.14"/>
+    </hotspots>
+    <media>
+      <sound id="_background" loop="0" nodechangekeep="0" pan="-1.000" mode="0" pansize="10.000" tilt="-1.000" field="90.000" ambientlevel="0.000" startmutedmobile="0" tiltsize="10.000" level="1.000">
+        <source url="media/513479__andrewkn__higher-than-possible.mp3"/>
+        <source url="media/513479__andrewkn__higher-than-possible_Court.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="20" zoomout="0" zoomafterinfov="90" type="crossdissolve" delay="none" softedge="0" zoomspeed="2" zoomfov="20" enabled="1" zoomoutpause="1" blendcolor="0x000000" zoomin="0" blendtime="1"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" sensitivity="8" rubberband="0" speedwheel="1" contextprojections="0" contextfullscreen="1" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" invertcontrol="1" lockedwheel="0" zoomcentercursor="1" invertwheel="0" hideabout="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node9">
+    <input leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="1440" height="1440">
+      <level predecode="0" width="1440" height="1440" preload="0"/>
+      <level predecode="0" width="720" height="720" preload="0"/>
+      <level predecode="1" width="360" height="360" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+      <video format="equirectangular" targetview="" startmutedmobile="0" endaction="loop" startonload="1">
+        <source url="videos/IntTel2.1-15A.mp4"/>
+        <source url="videos/IntTel2.1-7.mp4"/>
+        <source url="videos/IntTel2.1-10.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="-176.16" fov="70" tilt="19.7"/>
+      <flyin projection="4" pan="-168.97" fov="70" tilt="2.05"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata author="" datetime="" heading="0" comment="" customnodeid="" tags="Son ajusté|Telescope" title="" description="" info="" source="" copyright="" latitude="" longitude="" nodeid="node9"/>
+    <hotspots smoothmovement="1" width="180" height="20" wordwrap="1">
+      <label textcolor="0x000000" backgroundalpha="1" wordwrap="1" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" width="180" textalpha="1" border="1" borderradius="1" height="20" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot id="Point01" title="Rotation du Télescope" description="" url="{node10}" pan="-186.53" skinid="ht_Rotation" target="170.8/34.0/70.0" tilt="37.46"/>
+      <hotspot id="Point02" title="Se déplacer" description="" url="{node8}" pan="-118.38" skinid="ht_node" target="69.8/-1.9/100.0" tilt="-18.57"/>
+      <hotspot id="Point03" title="Se déplacer" description="" url="{node11}" pan="-195.79" skinid="ht_node" target="2.0/-15.9/100.0" tilt="-13.3"/>
+      <hotspot id="Point04" title="Monter dans le dôme" description="" url="{node13}" pan="-147.1" skinid="ht_node" target="" tilt="17.78"/>
+    </hotspots>
+    <media>
+      <sound id="_background" loop="0" nodechangekeep="0" pan="-1.000" mode="0" pansize="10.000" tilt="-1.000" field="90.000" ambientlevel="0.000" startmutedmobile="0" tiltsize="10.000" level="1.000">
+        <source url="media/513479__andrewkn__higher-than-possible.mp3"/>
+        <source url="media/513479__andrewkn__higher-than-possible_Court.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="20" zoomout="0" zoomafterinfov="90" type="crossdissolve" delay="none" softedge="0" zoomspeed="2" zoomfov="20" enabled="1" zoomoutpause="1" blendcolor="0x000000" zoomin="0" blendtime="1"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" sensitivity="8" rubberband="0" speedwheel="1" contextprojections="0" contextfullscreen="1" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" invertcontrol="1" lockedwheel="0" zoomcentercursor="1" invertwheel="0" hideabout="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node10">
+    <input leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="1440" height="1440">
+      <level predecode="0" width="1440" height="1440" preload="0"/>
+      <level predecode="0" width="720" height="720" preload="0"/>
+      <level predecode="1" width="360" height="360" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+      <video format="equirectangular" targetview="$(cur)" startmutedmobile="0" endaction="{node9}" startonload="1">
+        <source url="videos/IntTel2.2-10.mp4"/>
+        <source url="videos/IntTel2.2-7.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="4" pan="-176.15" fov="70" tilt="31.38"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata author="" datetime="" heading="0" comment="" customnodeid="" tags="Son ajusté|Telescope" title="Rotation du Télescope" description="" info="" source="" copyright="" latitude="" longitude="" nodeid="node10"/>
+    <hotspots smoothmovement="1" width="180" height="20" wordwrap="1">
+      <label textcolor="0x000000" backgroundalpha="1" wordwrap="1" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" width="180" textalpha="1" border="1" borderradius="1" height="20" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot id="Point01" title="Passer" description="" url="{node9}" pan="-177.11" skinid="ht_Passer" target="-171.8/-28.4/70.0" tilt="-8.78"/>
+    </hotspots>
+    <media>
+      <sound id="_background" loop="0" nodechangekeep="0" pan="-1.000" mode="0" pansize="10.000" tilt="-1.000" field="90.000" ambientlevel="0.000" startmutedmobile="0" tiltsize="10.000" level="1.000">
+        <source url="media/513479__andrewkn__higher-than-possible.mp3"/>
+        <source url="media/513479__andrewkn__higher-than-possible_Court.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="20" zoomout="0" zoomafterinfov="90" type="crossdissolve" delay="none" softedge="0" zoomspeed="2" zoomfov="20" enabled="1" zoomoutpause="1" blendcolor="0x000000" zoomin="0" blendtime="1"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" sensitivity="8" rubberband="0" speedwheel="1" contextprojections="0" contextfullscreen="1" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" invertcontrol="1" lockedwheel="0" zoomcentercursor="1" invertwheel="0" hideabout="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node11">
+    <input leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="1520" height="1520">
+      <level predecode="0" width="1520" height="1520" preload="0"/>
+      <level predecode="0" width="760" height="760" preload="0"/>
+      <level predecode="1" width="380" height="380" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+      <video format="equirectangular" targetview="" startmutedmobile="0" endaction="loop" startonload="1">
+        <source url="videos/IntTel3.1-15A.mp4"/>
+        <source url="videos/IntTel3.1-7.mp4"/>
+        <source url="videos/IntTel3.1-10.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="-177.06" fov="70" tilt="9.69"/>
+      <flyin projection="4" pan="-28.12" fov="70" tilt="-12.13"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata author="" datetime="2020-08-01 20:49" heading="0" comment="" customnodeid="" tags="Tests Exports|Telescope" title="IMG_20200801_164918_00_088.insp" description="" info="" source="" copyright="" latitude="" longitude="" nodeid="node11"/>
+    <hotspots smoothmovement="1" width="180" height="20" wordwrap="1">
+      <label textcolor="0x000000" backgroundalpha="1" wordwrap="1" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" width="180" textalpha="1" border="1" borderradius="1" height="20" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot id="Point02" title="Se déplacer" description="" url="{node8}" pan="-213.7" skinid="ht_node" target="-11.2/-3.4/100.0" tilt="-12.12"/>
+      <hotspot id="Point03" title="Rotation du Télescope" description="" url="{node12}" pan="-180.39" skinid="ht_Rotation" target="-178.5/15.2/100.0" tilt="17.91"/>
+      <hotspot id="Point04" title="Monter dans le dôme" description="" url="{node13}" pan="-239.98" skinid="ht_node" target="-173.6/-10.6/100.0" tilt="21.74"/>
+      <hotspot id="Point05" title="Sortir sur la passerelle" description="" url="{node32}" pan="-37.93" skinid="ht_node" target="" tilt="-9.99"/>
+    </hotspots>
+    <media>
+      <sound id="_background" loop="0" nodechangekeep="0" pan="-1.000" mode="0" pansize="10.000" tilt="-1.000" field="90.000" ambientlevel="0.000" startmutedmobile="0" tiltsize="10.000" level="1.000">
+        <source url="media/513479__andrewkn__higher-than-possible.mp3"/>
+        <source url="media/513479__andrewkn__higher-than-possible_Court.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="20" zoomout="0" zoomafterinfov="90" type="crossdissolve" delay="none" softedge="0" zoomspeed="2" zoomfov="20" enabled="1" zoomoutpause="1" blendcolor="0x000000" zoomin="0" blendtime="1"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" sensitivity="8" rubberband="0" speedwheel="1" contextprojections="0" contextfullscreen="1" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" invertcontrol="1" lockedwheel="0" zoomcentercursor="1" invertwheel="0" hideabout="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node12">
+    <input leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="1520" height="1520">
+      <level predecode="0" width="1520" height="1520" preload="0"/>
+      <level predecode="0" width="760" height="760" preload="0"/>
+      <level predecode="1" width="380" height="380" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+      <video format="equirectangular" targetview="$(cur)" startmutedmobile="0" endaction="{node11}" startonload="1">
+        <source url="videos/IntTel3.2-10.mp4"/>
+        <source url="videos/IntTel3.2-7.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="0" fov="100" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="330" scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata author="" datetime="2020-08-01 20:49" heading="0" comment="" customnodeid="" tags="Tests Exports|Telescope" title="Rotation du Télescope" description="" info="" source="" copyright="" latitude="" longitude="" nodeid="node12"/>
+    <hotspots smoothmovement="1" width="180" height="20" wordwrap="1">
+      <label textcolor="0x000000" backgroundalpha="1" wordwrap="1" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" width="180" textalpha="1" border="1" borderradius="1" height="20" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot id="Point01" title="Passer" description="" url="{node11}" pan="-184.87" skinid="ht_Passer" target="178.5/-50.7/100.0" tilt="-39.29"/>
+    </hotspots>
+    <media>
+      <sound id="_background" loop="0" nodechangekeep="0" pan="-1.000" mode="0" pansize="10.000" tilt="-1.000" field="90.000" ambientlevel="0.000" startmutedmobile="0" tiltsize="10.000" level="1.000">
+        <source url="media/513479__andrewkn__higher-than-possible.mp3"/>
+        <source url="media/513479__andrewkn__higher-than-possible_Court.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="20" zoomout="0" zoomafterinfov="90" type="crossdissolve" delay="none" softedge="0" zoomspeed="2" zoomfov="20" enabled="1" zoomoutpause="1" blendcolor="0x000000" zoomin="0" blendtime="1"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" sensitivity="8" rubberband="0" speedwheel="1" contextprojections="0" contextfullscreen="1" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" invertcontrol="1" lockedwheel="0" zoomcentercursor="1" invertwheel="0" hideabout="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node26">
+    <input leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node26/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="1440" height="1440">
+      <level predecode="0" width="1440" height="1440" preload="0"/>
+      <level predecode="0" width="720" height="720" preload="0"/>
+      <level predecode="1" width="360" height="360" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+      <video format="equirectangular" targetview="$(cur)" startmutedmobile="0" endaction="{node27}" startonload="1">
+        <source url="videos/IntObs1.1.mp4"/>
+        <source url="videos/IntObs1.1-7.mp4"/>
+        <source url="videos/IntObs1.1-10.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="59.04" fov="70" tilt="-19.62"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata author="" datetime="" heading="0" comment="" customnodeid="IntroObs" tags="Lieux|Salleobservation|Son ajusté" title="Salle d'observation" description="" info="" source="" copyright="" latitude="" longitude="" nodeid="node26"/>
+    <hotspots smoothmovement="1" width="180" height="20" wordwrap="1">
+      <label textcolor="0x000000" backgroundalpha="1" wordwrap="1" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" width="180" textalpha="1" border="1" borderradius="1" height="20" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot id="Point03" title="Passer la narration" description="" url="{node27}" pan="-316.79" skinid="ht_Passer" target="" tilt="-47.76"/>
+    </hotspots>
+    <media>
+      <sound id="_background" loop="0" nodechangekeep="0" pan="-1.000" mode="0" pansize="10.000" tilt="-1.000" field="90.000" ambientlevel="0.000" startmutedmobile="0" tiltsize="10.000" level="0.700">
+        <source url="media/513479__andrewkn__higher-than-possible.mp3"/>
+        <source url="media/513479__andrewkn__higher-than-possible_Court.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="20" zoomout="0" zoomafterinfov="90" type="crossdissolve" delay="none" softedge="0" zoomspeed="2" zoomfov="20" enabled="1" zoomoutpause="1" blendcolor="0x000000" zoomin="0" blendtime="1"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" sensitivity="8" rubberband="0" speedwheel="1" contextprojections="0" contextfullscreen="1" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" invertcontrol="1" lockedwheel="0" zoomcentercursor="1" invertwheel="0" hideabout="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node27">
+    <input leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node27/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="1440" height="1440">
+      <level predecode="0" width="1440" height="1440" preload="0"/>
+      <level predecode="0" width="720" height="720" preload="0"/>
+      <level predecode="1" width="360" height="360" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+      <video format="equirectangular" targetview="" startmutedmobile="0" endaction="loop" startonload="1">
+        <source url="videos/IntObs1.2-15.mp4"/>
+        <source url="videos/IntObs1.2-7.mp4"/>
+        <source url="videos/IntObs1.2-10.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="-33.66" fov="70" tilt="-13.39"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata author="" datetime="" heading="0" comment="" customnodeid="" tags="Contenu|Salleobservation" title="" description="" info="" source="" copyright="" latitude="" longitude="" nodeid="node27"/>
+    <hotspots smoothmovement="1" width="180" height="20" wordwrap="1">
+      <label textcolor="0x000000" backgroundalpha="1" wordwrap="1" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" width="180" textalpha="1" border="1" borderradius="1" height="20" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot id="Point01" title="Rejouer la narration" description="" url="{node26}" pan="-317.4" skinid="ht_Rejouer" target="" tilt="-46.74"/>
+      <hotspot id="Point02" title="Salle du Télescope" description="" url="{node7}" pan="-234.63" skinid="ht_node" target="" tilt="-11.56"/>
+      <hotspot id="Point03" title="Sortir" description="" url="{node5}" pan="-119.79" skinid="ht_node" target="-126.0/-14.3/100.0" tilt="-12.44"/>
+      <hotspot id="Point04" title="Les Dentelles du Cygne" description="" url="images/Nov2020.png" pan="-291.66" skinid="ht_image" target="" tilt="2.73"/>
+      <hotspot id="Point05" title="La galaxie M106" description="" url="images/Dec2020.png" pan="-310.37" skinid="ht_image" target="" tilt="2.37"/>
+      <hotspot id="Point06" title="L'amas d'Hercule" description="" url="images/Juin2019.png" pan="-280.85" skinid="ht_image" target="" tilt="-10.02"/>
+      <hotspot id="Point07" title="La nébuleuse du Crabe" description="" url="images/Mars2020.png" pan="-311.95" skinid="ht_image" target="" tilt="-11.01"/>
+      <hotspot id="Point08" title="La nébuleuse Orion" description="" url="images/Oct2020.png" pan="-294.55" skinid="ht_image" target="" tilt="-12.29"/>
+      <hotspot id="Point09" title="La nébuleuse de la Lyre" description="" url="images/Janv2020.png" pan="-7.09" skinid="ht_image" target="" tilt="-10.82"/>
+      <hotspot id="Point10" title="La galaxie du Tourbillon" description="" url="images/Mai2020.png" pan="-75.95" skinid="ht_image" target="" tilt="-8.41"/>
+    </hotspots>
+    <media>
+      <sound id="_background" loop="0" nodechangekeep="0" pan="-1.000" mode="0" pansize="10.000" tilt="-1.000" field="90.000" ambientlevel="0.000" startmutedmobile="0" tiltsize="10.000" level="1.000">
+        <source url="media/513479__andrewkn__higher-than-possible.mp3"/>
+        <source url="media/513479__andrewkn__higher-than-possible_Court.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="20" zoomout="0" zoomafterinfov="90" type="crossdissolve" delay="none" softedge="0" zoomspeed="2" zoomfov="20" enabled="1" zoomoutpause="1" blendcolor="0x000000" zoomin="0" blendtime="1"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" sensitivity="8" rubberband="0" speedwheel="1" contextprojections="0" contextfullscreen="1" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" invertcontrol="1" lockedwheel="0" zoomcentercursor="1" invertwheel="0" hideabout="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node13">
+    <input leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="1520" height="1520">
+      <level predecode="0" width="1520" height="1520" preload="0"/>
+      <level predecode="0" width="760" height="760" preload="0"/>
+      <level predecode="1" width="380" height="380" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+      <video format="equirectangular" targetview="$(cur)" startmutedmobile="0" endaction="{node14}" startonload="1">
+        <source url="videos/IntHaut1.1-8.mp4"/>
+        <source url="videos/IntHaut1.1-7.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="-175.83" fov="100" tilt="-18.41"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="330" scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata author="" datetime="2020-08-01 20:26" heading="0" comment="" customnodeid="" tags="Dome|Tests Exports|Lieux" title="Dôme" description="" info="" source="" copyright="" latitude="" longitude="" nodeid="node13"/>
+    <hotspots smoothmovement="1" width="180" height="20" wordwrap="1">
+      <label textcolor="0x000000" backgroundalpha="1" wordwrap="1" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" width="180" textalpha="1" border="1" borderradius="1" height="20" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot id="Point01" title="Passer la narration" description="" url="{node14}" pan="-182.9" skinid="ht_Passer" target="176.6/-58.4/100.0" tilt="-63.11"/>
+    </hotspots>
+    <media>
+      <sound id="_background" loop="0" nodechangekeep="0" pan="-1.000" mode="0" pansize="10.000" tilt="-1.000" field="90.000" ambientlevel="0.000" startmutedmobile="0" tiltsize="10.000" level="0.700">
+        <source url="media/513479__andrewkn__higher-than-possible.mp3"/>
+        <source url="media/513479__andrewkn__higher-than-possible_Court.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="20" zoomout="0" zoomafterinfov="90" type="crossdissolve" delay="none" softedge="0" zoomspeed="2" zoomfov="20" enabled="1" zoomoutpause="1" blendcolor="0x000000" zoomin="0" blendtime="1"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01">
+      <clip length="901" animtype="0" animtitle="Animation01" cliptitle="Test1" transitiontype="0" nextclipnodeid="node13" nextcliptitle="Test1" nodeid="" nextclipstartview="-175.83/-18.41/100/4">
+        <keyframe transitiontime="0" time="0" property="0" value="-175.83" valuestring="" type="0" additionaltrackid=""/>
+        <keyframe transitiontime="0" time="0" property="1" value="-18.41" valuestring="" type="0" additionaltrackid=""/>
+        <keyframe transitiontime="0" time="0" property="2" value="100" valuestring="" type="0" additionaltrackid=""/>
+        <keyframe transitiontime="0" time="0" property="3" value="4" valuestring="" type="0" additionaltrackid=""/>
+        <keyframe time="430" property="0" bezierouttime="484.3" type="2" bezierinvalue="-191.52" transitiontime="0" bezieroutvalue="-191.52" value="-191.52" valuestring="" bezierintime="301" additionaltrackid=""/>
+        <keyframe time="611" property="0" bezierouttime="10611" type="2" bezierinvalue="-191.52" transitiontime="0" bezieroutvalue="-191.52" value="-191.52" valuestring="" bezierintime="556.7" additionaltrackid=""/>
+        <keyframe time="429" property="1" bezierouttime="483.6" type="2" bezierinvalue="-18.41" transitiontime="0" bezieroutvalue="-18.41" value="-18.41" valuestring="" bezierintime="300.3" additionaltrackid=""/>
+        <keyframe time="611" property="1" bezierouttime="10611" type="2" bezierinvalue="-18.41" transitiontime="0" bezieroutvalue="-18.41" value="-18.41" valuestring="" bezierintime="556.4" additionaltrackid=""/>
+      </clip>
+    </animation>
+    <control simulatemass="1" sensitivity="8" rubberband="0" speedwheel="1" contextprojections="0" contextfullscreen="1" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" invertcontrol="1" lockedwheel="0" zoomcentercursor="1" invertwheel="0" hideabout="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node14">
+    <input leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="1520" height="1520">
+      <level predecode="0" width="1520" height="1520" preload="0"/>
+      <level predecode="0" width="760" height="760" preload="0"/>
+      <level predecode="1" width="380" height="380" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+      <video format="equirectangular" targetview="" startmutedmobile="0" endaction="loop" startonload="1">
+        <source url="videos/IntHaut1.2-15A.mp4"/>
+        <source url="videos/IntHaut1.2-7.mp4"/>
+        <source url="videos/IntHaut1.2-10.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="168.87" fov="70" tilt="-11.13"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata author="" datetime="2020-08-01 20:26" heading="0" comment="" customnodeid="" tags="Tests Exports|Dome" title="Dôme" description="" info="" source="" copyright="" latitude="" longitude="" nodeid="node14"/>
+    <hotspots smoothmovement="1" width="180" height="20" wordwrap="1">
+      <label textcolor="0x000000" backgroundalpha="1" wordwrap="1" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" width="180" textalpha="1" border="1" borderradius="1" height="20" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot id="Point01" title="Rejouer la narration" description="" url="{node13}" pan="-183.82" skinid="ht_Rejouer" target="179.6/-62.2/100.0" tilt="-64.1"/>
+      <hotspot id="Point02" title="Redescendre" description="" url="{node8}" pan="-146.79" skinid="ht_node" target="-21.2/-4.4/100.0" tilt="-31.63"/>
+      <hotspot id="Point03" title="Rotation du Télescope" description="" url="{node15}" pan="-182.42" skinid="ht_Rotation" target="-175.6/-29.0/100.0" tilt="-25.64"/>
+      <hotspot id="Point04" title="Se déplacer" description="" url="{node16}" pan="-175.8" skinid="ht_node" target="2.3/-1.9/70.0" tilt="1.25"/>
+    </hotspots>
+    <media>
+      <sound id="_background" loop="0" nodechangekeep="0" pan="-1.000" mode="0" pansize="10.000" tilt="-1.000" field="90.000" ambientlevel="0.000" startmutedmobile="0" tiltsize="10.000" level="1.000">
+        <source url="media/513479__andrewkn__higher-than-possible.mp3"/>
+        <source url="media/513479__andrewkn__higher-than-possible_Court.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="20" zoomout="0" zoomafterinfov="90" type="crossdissolve" delay="none" softedge="0" zoomspeed="2" zoomfov="20" enabled="1" zoomoutpause="1" blendcolor="0x000000" zoomin="0" blendtime="1"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" sensitivity="8" rubberband="0" speedwheel="1" contextprojections="0" contextfullscreen="1" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" invertcontrol="1" lockedwheel="0" zoomcentercursor="1" invertwheel="0" hideabout="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node15">
+    <input leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="1520" height="1520">
+      <level predecode="0" width="1520" height="1520" preload="0"/>
+      <level predecode="0" width="760" height="760" preload="0"/>
+      <level predecode="1" width="380" height="380" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+      <video format="equirectangular" targetview="$(cur)" startmutedmobile="0" endaction="{node14}" startonload="1">
+        <source url="videos/IntHaut1.3R-15A.mp4"/>
+        <source url="videos/IntHaut1.3-7.mp4"/>
+        <source url="videos/IntHaut1.3R-10.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="0" fov="100" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="330" scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata author="" datetime="2020-08-01 20:26" heading="0" comment="" customnodeid="" tags="Tests Exports|Dome" title="Rotation Télescope" description="" info="" source="" copyright="" latitude="" longitude="" nodeid="node15"/>
+    <hotspots smoothmovement="1" width="180" height="20" wordwrap="1">
+      <label textcolor="0x000000" backgroundalpha="1" wordwrap="1" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" width="180" textalpha="1" border="1" borderradius="1" height="20" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot id="Point01" title="Passer" description="" url="{node14}" pan="-178.76" skinid="ht_Passer" target="176.8/-38.3/100.0" tilt="-60.45"/>
+    </hotspots>
+    <media>
+      <sound id="_background" loop="0" nodechangekeep="0" pan="-1.000" mode="0" pansize="10.000" tilt="-1.000" field="90.000" ambientlevel="0.000" startmutedmobile="0" tiltsize="10.000" level="1.000">
+        <source url="media/513479__andrewkn__higher-than-possible.mp3"/>
+        <source url="media/513479__andrewkn__higher-than-possible_Court.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="20" zoomout="0" zoomafterinfov="90" type="crossdissolve" delay="none" softedge="0" zoomspeed="2" zoomfov="20" enabled="1" zoomoutpause="1" blendcolor="0x000000" zoomin="0" blendtime="1"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" sensitivity="8" rubberband="0" speedwheel="1" contextprojections="0" contextfullscreen="1" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" invertcontrol="1" lockedwheel="0" zoomcentercursor="1" invertwheel="0" hideabout="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node16">
+    <input leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="1440" height="1440">
+      <level predecode="0" width="1440" height="1440" preload="0"/>
+      <level predecode="0" width="720" height="720" preload="0"/>
+      <level predecode="1" width="360" height="360" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+      <video format="equirectangular" targetview="" startmutedmobile="0" endaction="loop" startonload="1">
+        <source url="videos/IntHaut2.1-15A.mp4"/>
+        <source url="videos/IntHaut2.1-7.mp4"/>
+        <source url="videos/IntHaut2.1-10.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="176.94" fov="70" tilt="-9.24"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata author="" datetime="" heading="0" comment="" customnodeid="" tags="Son ajusté|Dome" title="" description="" info="" source="" copyright="" latitude="" longitude="" nodeid="node16"/>
+    <hotspots smoothmovement="1" width="180" height="20" wordwrap="1">
+      <label textcolor="0x000000" backgroundalpha="1" wordwrap="1" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" width="180" textalpha="1" border="1" borderradius="1" height="20" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot id="Point01" title="Se déplacer" description="" url="{node14}" pan="-181.56" skinid="ht_node" target="0.0/0.0/100.0" tilt="0.1"/>
+      <hotspot id="Point02" title="Redescendre" description="" url="{node8}" pan="-215.06" skinid="ht_node" target="-26.2/-6.3/100.0" tilt="-34.53"/>
+      <hotspot id="Point03" title="Rotation du Télescope" description="" url="{node17}" pan="-180.01" skinid="ht_Rotation" target="179.8/-18.2/70.0" tilt="-18.82"/>
+    </hotspots>
+    <media>
+      <sound id="_background" loop="0" nodechangekeep="0" pan="-1.000" mode="0" pansize="10.000" tilt="-1.000" field="90.000" ambientlevel="0.000" startmutedmobile="0" tiltsize="10.000" level="1.000">
+        <source url="media/513479__andrewkn__higher-than-possible.mp3"/>
+        <source url="media/513479__andrewkn__higher-than-possible_Court.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="20" zoomout="0" zoomafterinfov="90" type="crossdissolve" delay="none" softedge="0" zoomspeed="2" zoomfov="20" enabled="1" zoomoutpause="1" blendcolor="0x000000" zoomin="0" blendtime="1"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" sensitivity="8" rubberband="0" speedwheel="1" contextprojections="0" contextfullscreen="1" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" invertcontrol="1" lockedwheel="0" zoomcentercursor="1" invertwheel="0" hideabout="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node17">
+    <input leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="1440" height="1440">
+      <level predecode="0" width="1440" height="1440" preload="0"/>
+      <level predecode="0" width="720" height="720" preload="0"/>
+      <level predecode="1" width="360" height="360" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+      <video format="equirectangular" targetview="$(cur)" startmutedmobile="0" endaction="{node16}" startonload="1">
+        <source url="videos/IntHaut2.2-10.mp4"/>
+        <source url="videos/IntHaut2.2-7.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="330" scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata author="" datetime="" heading="0" comment="" customnodeid="" tags="Son ajusté|Dome" title="Rotation du Télescope" description="" info="" source="" copyright="" latitude="" longitude="" nodeid="node17"/>
+    <hotspots smoothmovement="1" width="180" height="20" wordwrap="1">
+      <label textcolor="0x000000" backgroundalpha="1" wordwrap="1" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" width="180" textalpha="1" border="1" borderradius="1" height="20" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot id="Point01" title="Passer" description="" url="{node16}" pan="-178.78" skinid="ht_Passer" target="179.6/-65.8/70.0" tilt="-51.33"/>
+    </hotspots>
+    <media>
+      <sound id="_background" loop="0" nodechangekeep="0" pan="-1.000" mode="0" pansize="10.000" tilt="-1.000" field="90.000" ambientlevel="0.000" startmutedmobile="0" tiltsize="10.000" level="1.000">
+        <source url="media/513479__andrewkn__higher-than-possible.mp3"/>
+        <source url="media/513479__andrewkn__higher-than-possible_Court.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="20" zoomout="0" zoomafterinfov="90" type="crossdissolve" delay="none" softedge="0" zoomspeed="2" zoomfov="20" enabled="1" zoomoutpause="1" blendcolor="0x000000" zoomin="0" blendtime="1"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" sensitivity="8" rubberband="0" speedwheel="1" contextprojections="0" contextfullscreen="1" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" invertcontrol="1" lockedwheel="0" zoomcentercursor="1" invertwheel="0" hideabout="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node21">
+    <input leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="1520" height="1520">
+      <level predecode="0" width="1520" height="1520" preload="0"/>
+      <level predecode="0" width="760" height="760" preload="0"/>
+      <level predecode="1" width="380" height="380" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+      <video format="equirectangular" targetview="" startmutedmobile="0" endaction="loop" startonload="1">
+        <source url="videos/Passerelle1.2-15.mp4"/>
+        <source url="videos/Passerelle1.2-7.mp4"/>
+        <source url="videos/Passerelle1.2-10.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="-132.72" fov="70" tilt="13.05"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="330" scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata author="" datetime="2020-08-01 21:39" heading="0" comment="" customnodeid="" tags="Passerelle|Tests Exports" title="Passerelle Jour" description="" info="" source="" copyright="" latitude="" longitude="" nodeid="node21"/>
+    <hotspots smoothmovement="1" width="180" height="20" wordwrap="1">
+      <label textcolor="0x000000" backgroundalpha="1" wordwrap="1" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" width="180" textalpha="1" border="1" borderradius="1" height="20" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot id="Point03" title="Se déplacer" description="" url="{node24}" pan="-235.36" skinid="ht_node" target="-98.7/-9.4/100.0" tilt="-2.54"/>
+      <hotspot id="Point02" title="Se déplacer" description="" url="{node25}" pan="-104.7" skinid="ht_node" target="83.4/-15.7/70.0" tilt="-6.2"/>
+      <hotspot id="Fin de l'expérience" title="Crédits" description="" url="{node29}" pan="-281.3" skinid="ht_node" target="" tilt="-7.06"/>
+      <hotspot id="Point01" title="Ouverture du dôme" description="" url="{node31}" pan="-164.22" skinid="ht_Rotation" target="" tilt="21.11"/>
+    </hotspots>
+    <media>
+      <sound id="_background" loop="0" nodechangekeep="0" pan="-1.000" mode="0" pansize="10.000" tilt="-1.000" field="90.000" ambientlevel="0.000" startmutedmobile="0" tiltsize="10.000" level="1.000">
+        <source url="media/638625__marb7e__calm-belgian-forest-with-birds-chirp.mp3"/>
+        <source url="media/638625__marb7e__calm-belgian-forest-with-birds-chirp_Court.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="20" zoomout="0" zoomafterinfov="90" type="crossdissolve" delay="none" softedge="0" zoomspeed="2" zoomfov="20" enabled="1" zoomoutpause="1" blendcolor="0x000000" zoomin="0" blendtime="1"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" sensitivity="8" rubberband="0" speedwheel="1" contextprojections="0" contextfullscreen="1" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" invertcontrol="1" lockedwheel="0" zoomcentercursor="1" invertwheel="0" hideabout="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node31">
+    <input leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node31/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="1520" height="1520">
+      <level predecode="0" width="1520" height="1520" preload="0"/>
+      <level predecode="0" width="760" height="760" preload="0"/>
+      <level predecode="1" width="380" height="380" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+      <video format="equirectangular" targetview="" startmutedmobile="0" endaction="{node21}" startonload="1">
+        <source url="videos/Passerelle1.1O-SN.mp4"/>
+        <source url="videos/Passerelle1.1O-SN-7.mp4"/>
+        <source url="videos/Passerelle1.1O-SN-10.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="-175.05" fov="70" tilt="25.55"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="330" scaletofit="1" fovfisheye="360" pan="360" fov="140" tilt="90"/>
+    </view>
+    <userdata author="" datetime="" heading="0" comment="" customnodeid="" tags="Contenu" title="Passerelle-O" description="" info="" source="" copyright="" latitude="" longitude="" nodeid="node31"/>
+    <hotspots smoothmovement="1" width="180" height="20" wordwrap="1">
+      <label textcolor="0x000000" backgroundalpha="1" wordwrap="1" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" width="180" textalpha="1" border="1" borderradius="1" height="20" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot id="Point01" title="Passer" description="" url="{node21}" pan="-170.1" skinid="ht_Passer" target="" tilt="-8.08"/>
+    </hotspots>
+    <media>
+      <sound id="_background" loop="1" nodechangekeep="0" pan="-1.000" mode="0" pansize="10.000" tilt="-1.000" field="90.000" ambientlevel="0.000" startmutedmobile="0" tiltsize="10.000" level="1.000">
+        <source url="media/638625__marb7e__calm-belgian-forest-with-birds-chirp.mp3"/>
+        <source url="media/638625__marb7e__calm-belgian-forest-with-birds-chirp_Court.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="20" zoomout="0" zoomafterinfov="90" type="crossdissolve" delay="none" softedge="0" zoomspeed="2" zoomfov="20" enabled="1" zoomoutpause="1" blendcolor="0x000000" zoomin="0" blendtime="1"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" sensitivity="8" rubberband="0" speedwheel="1" contextprojections="0" contextfullscreen="1" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" invertcontrol="1" lockedwheel="0" zoomcentercursor="1" invertwheel="0" hideabout="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node24">
+    <input leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="1520" height="1520">
+      <level predecode="0" width="1520" height="1520" preload="0"/>
+      <level predecode="0" width="760" height="760" preload="0"/>
+      <level predecode="1" width="380" height="380" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+      <video format="equirectangular" targetview="" startmutedmobile="0" endaction="loop" startonload="1">
+        <source url="videos/PasserelleSoir2-15.mp4"/>
+        <source url="videos/PasserelleSoir2-7.mp4"/>
+        <source url="videos/PasserelleSoir2-7.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="-124.44" fov="100" tilt="-0.23"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="330" scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata author="" datetime="2020-08-01 23:54" heading="0" comment="" customnodeid="" tags="Tests Exports|Passerelle" title="IMG_20200801_195449_00_206.insp" description="" info="" source="" copyright="" latitude="" longitude="" nodeid="node24"/>
+    <hotspots smoothmovement="1" width="180" height="20" wordwrap="1">
+      <label textcolor="0x000000" backgroundalpha="1" wordwrap="1" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" width="180" textalpha="1" border="1" borderradius="1" height="20" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot id="Point01" title="Se déplacer" description="" url="{node21}" pan="-288.74" skinid="ht_node" target="" tilt="-4.2"/>
+      <hotspot id="Point02" title="Se déplacer" description="" url="{node25}" pan="-62.12" skinid="ht_node" target="-90.3/-4.1/100.0" tilt="-6.31"/>
+      <hotspot id="Point03" title="Crédits" description="" url="{node29}" pan="-109.93" skinid="ht_node" target="" tilt="-6.76"/>
+      <hotspot id="Point05" title="L'Observatoire vu en drone" description="" url="cRWnQpEgBFA" pan="-249.47" skinid="ht_video_youtube" target="" tilt="1.65"/>
+    </hotspots>
+    <media>
+      <sound id="_background" loop="0" nodechangekeep="0" pan="-1.000" mode="0" pansize="10.000" tilt="-1.000" field="90.000" ambientlevel="0.000" startmutedmobile="0" tiltsize="10.000" level="1.000">
+        <source url="media/638625__marb7e__calm-belgian-forest-with-birds-chirp.mp3"/>
+        <source url="media/638625__marb7e__calm-belgian-forest-with-birds-chirp_Court.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="20" zoomout="0" zoomafterinfov="90" type="crossdissolve" delay="none" softedge="0" zoomspeed="2" zoomfov="20" enabled="1" zoomoutpause="1" blendcolor="0x000000" zoomin="0" blendtime="1"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" sensitivity="8" rubberband="0" speedwheel="1" contextprojections="0" contextfullscreen="1" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" invertcontrol="1" lockedwheel="0" zoomcentercursor="1" invertwheel="0" hideabout="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node32">
+    <input leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node32/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="1440" height="1440">
+      <level predecode="0" width="1440" height="1440" preload="0"/>
+      <level predecode="0" width="720" height="720" preload="0"/>
+      <level predecode="1" width="360" height="360" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+      <video format="equirectangular" targetview="" startmutedmobile="0" endaction="{node25}" startonload="1">
+        <source url="videos/PasserelleSoir3.1N.mp4"/>
+        <source url="videos/PasserelleSoir3.1N-7.mp4"/>
+        <source url="videos/PasserelleSoir3.1N-10.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="330" scaletofit="1" fovfisheye="360" pan="360" fov="140" tilt="90"/>
+    </view>
+    <userdata author="" datetime="" heading="0" comment="" customnodeid="" tags="Contenu|Lieux" title="Passerelle" description="" info="" source="" copyright="" latitude="" longitude="" nodeid="node32"/>
+    <hotspots smoothmovement="1" width="180" height="20" wordwrap="1">
+      <label textcolor="0x000000" backgroundalpha="1" wordwrap="1" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" width="180" textalpha="1" border="1" borderradius="1" height="20" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot id="Point01" title="Passer la narration" description="" url="{node25}" pan="-207.71" skinid="ht_Passer" target="" tilt="-19.73"/>
+    </hotspots>
+    <media>
+      <sound id="_background" loop="1" nodechangekeep="0" pan="-1.000" mode="0" pansize="10.000" tilt="-1.000" field="90.000" ambientlevel="0.000" startmutedmobile="0" tiltsize="10.000" level="1.000">
+        <source url="media/638625__marb7e__calm-belgian-forest-with-birds-chirp.mp3"/>
+        <source url="media/638625__marb7e__calm-belgian-forest-with-birds-chirp_Court.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="20" zoomout="0" zoomafterinfov="90" type="crossdissolve" delay="none" softedge="0" zoomspeed="2" zoomfov="20" enabled="1" zoomoutpause="1" blendcolor="0x000000" zoomin="0" blendtime="1"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" sensitivity="8" rubberband="0" speedwheel="1" contextprojections="0" contextfullscreen="1" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" invertcontrol="1" lockedwheel="0" zoomcentercursor="1" invertwheel="0" hideabout="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node25">
+    <input leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node25/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="1440" height="1440">
+      <level predecode="0" width="1440" height="1440" preload="0"/>
+      <level predecode="0" width="720" height="720" preload="0"/>
+      <level predecode="1" width="360" height="360" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+      <video format="equirectangular" targetview="" startmutedmobile="0" endaction="loop" startonload="1">
+        <source url="videos/PasserelleSoir3Court.mp4"/>
+        <source url="videos/PasserelleSoir3Court-7.mp4"/>
+        <source url="videos/PasserelleSoir3Court-10.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="92.51" fov="70" tilt="0.94"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="330" scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata author="" datetime="" heading="0" comment="" customnodeid="" tags="Contenu|Passerelle" title="" description="" info="" source="" copyright="" latitude="" longitude="" nodeid="node25"/>
+    <hotspots smoothmovement="1" width="180" height="20" wordwrap="1">
+      <label textcolor="0x000000" backgroundalpha="1" wordwrap="1" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" width="180" textalpha="1" border="1" borderradius="1" height="20" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot id="Point01" title="Retourner à l'intérieur" description="" url="{node11}" pan="-320.13" skinid="ht_node" target="-178.1/5.1/100.0" tilt="-18.17"/>
+      <hotspot id="Point02" title="Se déplacer" description="" url="{node21}" pan="-27.73" skinid="ht_node" target="103.4/1.1/100.0" tilt="-6.86"/>
+      <hotspot id="Point03" title="Se déplacer" description="" url="{node24}" pan="-253.61" skinid="ht_node" target="142.7/-0.4/100.0" tilt="-6.5"/>
+      <hotspot id="Point04" title="Crédits" description="" url="{node29}" pan="-144.86" skinid="ht_node" target="" tilt="-3.47"/>
+      <hotspot id="Point05" title="Rejouer la narration" description="" url="{node32}" pan="-211.5" skinid="ht_Rejouer" target="" tilt="-19.53"/>
+    </hotspots>
+    <media>
+      <sound id="_background" loop="0" nodechangekeep="0" pan="-1.000" mode="0" pansize="10.000" tilt="-1.000" field="90.000" ambientlevel="0.000" startmutedmobile="0" tiltsize="10.000" level="1.000">
+        <source url="media/638625__marb7e__calm-belgian-forest-with-birds-chirp.mp3"/>
+        <source url="media/638625__marb7e__calm-belgian-forest-with-birds-chirp_Court.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="20" zoomout="0" zoomafterinfov="90" type="crossdissolve" delay="none" softedge="0" zoomspeed="2" zoomfov="20" enabled="1" zoomoutpause="1" blendcolor="0x000000" zoomin="0" blendtime="1"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" sensitivity="8" rubberband="0" speedwheel="1" contextprojections="0" contextfullscreen="1" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" invertcontrol="1" lockedwheel="0" zoomcentercursor="1" invertwheel="0" hideabout="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node29">
+    <input leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node29/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="1520" height="1520">
+      <level predecode="0" width="1520" height="1520" preload="0"/>
+      <level predecode="0" width="760" height="760" preload="0"/>
+      <level predecode="1" width="380" height="380" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+      <video format="equirectangular" targetview="" startmutedmobile="0" endaction="stop" startonload="1">
+        <source url="videos/TimeLapseConclu.mp4"/>
+        <source url="videos/TimeLapseConclu7.mp4"/>
+        <source url="videos/TimeLapseConclu-10.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="-25.96" fov="70" tilt="17.98"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata author="" datetime="" heading="0" comment="" customnodeid="" tags="Lieux|NarrationSupp" title="Crédits" description="" info="" source="" copyright="" latitude="" longitude="" nodeid="node29"/>
+    <hotspots smoothmovement="1" width="180" height="20" wordwrap="1">
+      <label textcolor="0x000000" backgroundalpha="1" wordwrap="1" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" width="180" textalpha="1" border="1" borderradius="1" height="20" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot id="Point01" title="Recommencer la visite" description="" url="{node30}" pan="-325.67" skinid="ht_Rejouer" target="" tilt="-14.41"/>
+      <hotspot id="Point02" title="Retourner sur la passerelle" description="" url="{node25}" pan="-50.34" skinid="ht_node" target="" tilt="15.01"/>
+      <hotspot id="Point03" title="Se déplacer" description="" url="{node6}" pan="-66.16" skinid="ht_node" target="" tilt="-2.61"/>
+    </hotspots>
+    <media>
+      <image id="Crédits" handcursor="0" pan="-324.740" rotz="0.000" fov="65.000" tilt="5.140" hidepinned="0" rotx="0.000" width="1448" popbackmode="0" stretch="1.000" height="325" clickmode="1" roty="0.000">
+        <source url="media/Credits2.png"/>
+      </image>
+      <sound id="_background" loop="1" nodechangekeep="0" pan="-1.000" mode="0" pansize="10.000" tilt="-1.000" field="90.000" ambientlevel="0.000" startmutedmobile="0" tiltsize="10.000" level="1.000">
+        <source url="media/638625__marb7e__calm-belgian-forest-with-birds-chirp.mp3"/>
+        <source url="media/638625__marb7e__calm-belgian-forest-with-birds-chirp_Court.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="20" zoomout="0" zoomafterinfov="90" type="crossdissolve" delay="none" softedge="0" zoomspeed="2" zoomfov="20" enabled="1" zoomoutpause="1" blendcolor="0x000000" zoomin="0" blendtime="1"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" sensitivity="8" rubberband="0" speedwheel="1" contextprojections="0" contextfullscreen="1" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" invertcontrol="1" lockedwheel="0" zoomcentercursor="1" invertwheel="0" hideabout="0" contextvr="1"/>
+  </panorama>
+  <masternode>
+    <userdata title="" description="" author="" copyright="" comment="" tags=""/>
+    <animationsequences>
+      <sequence title="Animation01">
+        <sequenceelement cliptitle="Test1" nodeid="node13" index="0" startview="-175.83/-18.41/100/4"/>
+      </sequence>
+    </animationsequences>
+  </masternode>
+</tour>
